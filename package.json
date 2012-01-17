@@ -1,0 +1,28 @@
+{
+	"name": "node-televiz",
+	"author": "Beau Gunderson <beau@beaugunderson.com>",
+	"description": "A debugging tool for the TeleHash protocol",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/beaugunderson/node-televiz"
+	},
+	"scripts": {
+		"start": "node ./televiz.js"
+	},
+	"keywords": [
+		"telehash",
+		"debugging"
+	],
+	"dependencies": {
+		"async": "0.1.x",
+		"express": "2.5.x",
+		"jade": "0.20.x",
+		"socket.io": "0.8.x",
+		"stylus": "0.22.x"
+	},
+	"license": "MIT",
+	"engine": {
+		"node": ">=0.4"
+	}
+}
